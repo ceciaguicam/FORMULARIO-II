@@ -12,11 +12,15 @@
             <legend>Datos</legend>
             <p>
                 <label for="nombre">Nombre: </label>
-                <input type="text" maxlength="6" id="nombre" name="nombre">
+                <input type="text" maxlength="6" id="nombre" name="nombre" required placeholder="Escriba su nombre completo">
+            </p>
+            <p>
+                <label for="poblacion">Población: </label>
+                <input type="text" autofocus value="Alcázar de San Juan" maxlength="50" id="poblacion" name="poblacion">
             </p>
             <p>
                 <label for="password">Contraseña: </label>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password" minlength="8">
             </p>
             <p>
                 <label for="hombre">Hombre</label>
